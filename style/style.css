@@ -134,7 +134,41 @@ font-weight: bold;
     justify-content: space-between;
     height: 350px;
 }
-.shop-container
+
+/* .badge{
+   width: 286px;
+   height: 286px;
+} */
+ /* footer */
+ .footer{
+    display: flex;
+    justify-content: space-between;
+   padding: 60px 160px;
+  
+
+ }
+ .about-us li{
+    list-style: none;
+    color: rgba(0, 0, 0, 0.5);
+   
+ }
+ .same-same{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+ }
+ .footer-discribe{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.375rem;
+ }
+ .footer-main{
+    width: 359px;
+ }
+ .footer-img img{
+    gap: 24px;
+ }
+ 
 @media screen and (max-width:435px){
    
         .banner{
