@@ -180,8 +180,8 @@ font-weight: bold;
  }
 .button{
    background-color: #E95A08;
-   padding-top: 15px;
-   padding-bottom: 15px;
+   padding-top: 16px;
+   padding-bottom: 16px;
    border: none;
    color: white;
    width: 150px;
@@ -201,13 +201,14 @@ font-weight: bold;
     background-image: url(../assets/news-letter-bg.png);
    
     height: 533px;
+    margin-top: 100px;
     
     
  }
  
  .bg-flower h2{
     text-align: center;
-    padding-top: 240px;
+    padding-top: 205px;
     color: rgba(255, 255, 255, 1);
     font-weight: bold;
     font-size: 3.125rem;
@@ -219,8 +220,95 @@ font-weight: bold;
     margin: 0;
     padding: 15px 8px;
  }
-@media screen and (max-width:435px){
+
+/* off section */
+
+
+.big-container{
+    width: 753px;
+    height: 423px;
+    text-align: center;
+}
+.container{
+    height: 200px;
+    width: 367px;
+    
+    
+    text-align: center;
+}
+.img-1{
+    margin-bottom: 23px;
+    background-image: url(../assets/deal-bloom.png);
+    background-color:rgba(0, 0, 0, 0.4);
+    background-blend-mode: overlay;
    
+}
+.img-2{
+    background-image: url(../assets/deal-ana.png);
+    background-color:rgba(0, 0, 0, 0.4);
+    background-blend-mode: overlay;
+}
+.img-3{
+     background-image: url(../assets/deal-zabo.png);
+    background-color:rgba(0, 0, 0, 0.4);
+    background-blend-mode: overlay;
+}
+
+.off-1{
+    color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+    font-size: 1,25rem;
+    
+    margin-top: 80px;
+}
+.off-3{
+    margin-top: 185px;
+    margin-bottom: 5px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.shop{
+    color: rgba(255, 255, 255, 1);
+    font-size: 1rem;
+   
+}
+.shop-2{
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    font-size: 1.75rem;
+   
+}
+.off-main-1{
+    width: 347px;
+    height: 423px;
+    
+    display: grid;
+    justify-content: space-between;
+}
+ .off-main{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ /* off text */
+ .off-text{
+    text-align: center;
+ }
+ .off-titel{
+    font-weight: bold;
+    font-size: 3.125rem;
+    margin-bottom: 0;
+    margin-top: 70px;
+ }
+ .off-discribe{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.375rem;
+    margin-bottom: 100px;
+ }
+ 
+@media screen and (max-width:435px){
+   .
         .banner{
         flex-direction: column-reverse;
         margin-top: 300px;
