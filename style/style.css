@@ -144,6 +144,7 @@ font-weight: bold;
     display: flex;
     justify-content: space-between;
    padding: 60px 160px;
+   
   
 
  }
@@ -157,6 +158,7 @@ font-weight: bold;
     flex-direction: column;
     justify-content: space-between;
     height: 200px;
+    
  }
  .footer-discribe{
     color: rgba(0, 0, 0, 0.5);
@@ -165,10 +167,58 @@ font-weight: bold;
  .footer-main{
     width: 359px;
  }
- .footer-img img{
-    gap: 24px;
+ .footer-img{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-content: center;
+    
+    
+ }
+ .tx{
+    margin-top: 50px;
+ }
+.button{
+   background-color: #E95A08;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   border: none;
+   color: white;
+   width: 150px;
+
+}
+
+
+ .btn-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
  }
  
+ 
+ .bg-flower{
+    background-image: url(../assets/news-letter-bg.png);
+   
+    height: 533px;
+    
+    
+ }
+ 
+ .bg-flower h2{
+    text-align: center;
+    padding-top: 240px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+    font-size: 3.125rem;
+    margin-bottom: 25px;
+ }
+ .email{
+    color: rgba(0, 0, 0, 0.5);
+    width: 600px;
+    margin: 0;
+    padding: 15px 8px;
+ }
 @media screen and (max-width:435px){
    
         .banner{
