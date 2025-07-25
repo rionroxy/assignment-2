@@ -87,6 +87,7 @@ header{
     background-color: #E95A08;
     color: #FFFFFF;
     font-weight: 600;
+    font-size: 1rem;
     border: none;
 }
 .lily{
@@ -135,11 +136,9 @@ font-weight: bold;
     height: 350px;
 }
 
-/* .badge{
-   width: 286px;
-   height: 286px;
-} */
+
  /* footer */
+
  .footer{
     display: flex;
     justify-content: space-between;
@@ -199,7 +198,8 @@ font-weight: bold;
  
  .bg-flower{
     background-image: url(../assets/news-letter-bg.png);
-   
+    
+    width: 100%;
     height: 533px;
     margin-top: 100px;
     
@@ -228,12 +228,12 @@ font-weight: bold;
     width: 753px;
     height: 423px;
     text-align: center;
+    border-radius: 12px;
 }
 .container{
     height: 200px;
     width: 367px;
-    
-    
+    border-radius: 12px;
     text-align: center;
 }
 .img-1{
@@ -332,6 +332,19 @@ font-weight: bold;
 .off-main{
     flex-direction: column;
 }
+.big-container{
+    width: 100%;
+    height: 423px;
+
+}
+.footer{
+    flex-direction: column;
+    padding: 0px;
+}
+.same-same{
+    padding: 0px;
+}
+
 
      }
      
